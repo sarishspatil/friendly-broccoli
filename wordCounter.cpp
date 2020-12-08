@@ -30,7 +30,7 @@ int main() {
 		}
 		lineCount++;
 	}
-	cout << "Number of Characters: " << charCount << endl;
+	cout << "Number of Character: " << charCount << endl;
 	cout << "Number of Words: " << wordCount << endl;
 	cout << "Number of Lines: " << lineCount << endl;
 
