@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 	string line, buff;
-	string filename = "Textfile.txt";
+	string filename = "Testfile.txt";
 	ifstream inFile(filename);
 
 	if (!inFile.is_open()) {
