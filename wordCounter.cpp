@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 	string line, buff;
-	string filename = "ExampleTexz.txt";
+	string filename = "Textfile.txt";
 	ifstream inFile(filename);
 
 	if (!inFile.is_open()) {
@@ -30,10 +30,9 @@ int main() {
 		}
 		lineCount++;
 	}
-
-	cout << charCount << endl;
-	cout << wordCount << endl;
-	cout << lineCount << endl;
+	cout << "Number of Characters: " << charCount << endl;
+	cout << "Number of Words: " << wordCount << endl;
+	cout << "Number of Lines: " << lineCount << endl;
 
 	return 0;
 }
